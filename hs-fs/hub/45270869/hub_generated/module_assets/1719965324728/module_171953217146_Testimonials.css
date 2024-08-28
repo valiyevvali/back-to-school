@@ -1,0 +1,77 @@
+.testimonials ul{
+  cursor: -webkit-grab; 
+  cursor: grab;
+}
+
+.testimonials .testimonials-item{
+  padding: 40px;
+  border-radius: 24px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.4s ease;
+  margin-right: 5px;
+}
+
+.testimonials .testimonials-item .description{
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonials-item .profile-box{
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.testimonials .testimonials-item .profile-box img{
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.testimonials .testimonials-item .profile-text-box > h5{
+  color: #1a1a1a;
+}
+
+.testimonials .testimonials-item .profile-text-box{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+
+.testimonials .slidenav-previous-btn,
+.testimonials .slidenav-next-btn{
+  background: #FFF;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials .uk-icon:not(.uk-preserve) [stroke*='#']:not(.uk-preserve) {
+  stroke: #3452ff;
+  stroke-width: 4;
+}
+
+.testimonials .uk-dotnav.testimonials-dot>.uk-active>* {
+  background-color: #3452ff;
+}
+
+.testimonials .uk-dotnav.testimonials-dot>*>*{
+  border-color:#DBDEE7;
+}
+
+
+{# Responsive CSS #}
+@media only screen and (max-width: 767px) {
+  .testimonials .testimonials-item{
+  padding: 24px !important;
+}
+}

@@ -1,0 +1,62 @@
+.cta-main {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-main .overlay {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  transition: all .4s ease;
+}
+
+.cta-main .cta-content { 
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+}
+
+
+.cta-main .cta-description{
+  margin-top: 20px;
+}
+
+{# Button #}
+.cta-main .button{
+  margin-top: 30px;
+  font-weight: 600;
+  border-radius: 100px;
+}
+
+.cta-main .button.uk-button-primary:link,
+.cta-main .button.uk-button-primary:visited{
+  color: #FFF;
+}
+
+.cta-main .button.uk-button-primary:hover,
+.cta-main .button.uk-button-primary:active{
+  color: #FFF;
+}
+
+.cta-main .button span svg,
+.cta-main .button img{
+  margin-left: 15px;
+  transition: .4s all linear;
+  height: 22px;
+}
+
+.cta-main .button .button span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
